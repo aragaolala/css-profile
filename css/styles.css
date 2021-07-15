@@ -1,0 +1,197 @@
+body {
+  text-align: center;
+  margin: 0;
+  background-color: #EBF2FA
+    /**forma de alinhar um texto - tudo será alinhado de acordo com ele ( o parent) -
+  se tiver conflito, definir especifico como no h1**/
+}
+
+h1 {
+  color: #ed254e;
+  /**   /**color: #FFAEBC;**/
+  font-family: 'Handlee', cursive;
+  margin: 50px auto 0 auto;
+  font-size: 3rem;
+  /**margin: 0 auto 0 auto; outra forma de ainhar -- isso é aquele método do relogio topo, direita, bottom e esquerda
+  COMO é igual o topo e bottom e tb igual esq e direita, poderia encurtar com margin: 0 auto; ***/
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #272727;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 2;
+  
+}
+
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #5438dc;
+  padding-bottom: 10px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  color: #87ff65;
+  width: 4%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  /** na aula
+  border: dotted #cordesejada 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto; ***/
+}
+
+a {
+  color: #e83151;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #87ff65;
+}
+
+/******************CLASS SELECTORS ********/
+.top-container {
+  background-color: #EBF2FA;
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.middle-container {
+  background-color: #f2f2f2;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.bottom-container {
+  background-color: #272727;
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.foto-perfil {
+  width: 15%;
+  margin: 50px auto 30px;
+}
+
+.intro {
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  width: 40%;
+  margin: auto;
+}
+
+.fotos-das-habilidades {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.fotos-das-habilidades-direita {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 70px auto 70px auto;
+  text-align: left;
+}
+
+.subtitle {
+  font-weight: bold;
+}
+
+.titulo-habilidades {
+  text-align: center;
+  color: #5438dc;
+}
+
+.mensagem-contato {
+  width: 40%;
+  margin: 40px auto 50px;
+}
+
+.contact-me {
+  margin: auto;
+}
+
+.copyright {
+  padding: 20px 0;
+  color: #EBF2FA;
+  font-size: 0.75rem;
+}
+
+.copyright:hover {
+  color: #e83151;
+}
+
+.BUTTON_OSP {
+  background: #5438dc;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 8px;
+  color: #ebf2fa;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #5438dc 1px;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_OSP:hover {
+  color: #272727;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 20px;
+  border: solid #87ff65 1px;
+  background: #87ff65;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
